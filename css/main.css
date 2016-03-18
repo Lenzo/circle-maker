@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: rgb(130, 72, 62);
+	opacity: 1.0;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+}
